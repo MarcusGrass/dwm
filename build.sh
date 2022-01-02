@@ -1,3 +1,3 @@
 #!/bin/bash
 make -j$(nproc)
-doas make install
+sudo make -j$(nproc) install

@@ -1994,7 +1994,7 @@ void
 updatestatus(void)
 {
 	if (!gettextprop(root, XA_WM_NAME, stext, sizeof(stext)))
-		strcpy(stext, "Gdwm");
+		strcpy(stext, "");
 	drawbar(selmon);
 }
 
